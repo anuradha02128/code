@@ -1,0 +1,26 @@
+Install python
+----------------------
+https://www.python.org/downloads/
+
+install virtual environments
+------------------------------
+py -m pip install --user virtualenv
+
+create venv
+---------------------
+py -m venv env
+
+active venv
+----------------------
+env\Scripts\activate
+
+install requirements.txt
+----------------------------
+pip install -r /path/to/requirements.txt
+
+
+run project
+--------------------------
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
